@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EcoVibe – Nature Awareness Hub</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="eco-tips.html">Eco Tips</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <video autoplay muted loop id="bg-video">
+    <source src="media/nature-bg.mp4.mp4" type="video/mp4" />
+  </video>
+
+  <div class="overlay">
+    <h1>EcoVibe</h1>
+    <p>Feel the rhythm of nature</p>
+    <button onclick="playNatureSound()">Play Forest Sound 🌲</button>
+    <a href="gallery.html" class="gallery-btn">Explore Gallery</a>
+  </div>
+
+  <audio id="forestAudio" src="media/forest-sound.mp3.wav" preload="auto"></audio>
+  <!-- <audio id="forestAudio" src="media/forest-sound.mp3.wav" preload="auto"></audio> -->
+  <script src="js/script.js"></script>
+</body>
+</html>
